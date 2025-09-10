@@ -6,25 +6,25 @@
 
 primero clonar el proyecto y dirigirse a su ubicación
 
-"""
+```
 https://github.com/JAGBytes/arep-parcial1.git
 cd arep-parcial1.git
-"""
+```
 luego se hace el siguiente comando
-"""
+```
 mvn clean package
-"""
+```
 Para correr el proyecto ejecutar la fachada
 
-"""
+```
 java -cp target/classes edu.eci.arep.calculator.Fachada
-"""
+```
 
 y el server
 
-"""
+```
 java -cp target/classes edu.eci.arep.calculator.HttpServer
-"""
+```
 
 <video controls src="src/main/java/resources/Recording 2025-09-10 112057.mp4" title="Title"></video>
 
@@ -45,5 +45,6 @@ ejemplo obteniendo stats
 toda la evidencia se encuentra en la carpeta resources dentro del proyecto
 
 link de video en one drive  
-
-
+```
+https://pruebacorreoescuelaingeduco-my.sharepoint.com/:v:/g/personal/jorge_gamboa-s_mail_escuelaing_edu_co/EevXnPVaigpMpI4iIG2HFLsB8lO9CNI8kUpSc9Tty4HZgw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6LbcaV
+```
