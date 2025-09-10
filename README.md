@@ -28,18 +28,18 @@ java -cp target/classes edu.eci.arep.calculator.HttpServer
 
 <video controls src="src/main/java/resources/Recording 2025-09-10 112057.mp4" title="Title"></video>
 
-Ejemplo añadiendo un usuario
+Ejemplo añadiendo un usuario<br>
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 111041.png>)
 
 
-ejemplo obteniendo valores de linked list
+ejemplo obteniendo valores de linked list<br>
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 111119.png>)
 
-ejemplo añadiendo otro numero
+ejemplo añadiendo otro numero<br>
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 111227.png>)
 
 
-ejemplo obteniendo stats
+ejemplo obteniendo stats<br>
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 111318.png>)
 
 toda la evidencia se encuentra en la carpeta resources dentro del proyecto
