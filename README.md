@@ -1,5 +1,20 @@
 # arep-parcial1
 
+<p>Este parcial consiste en la implementación de tres componentes pertenecientes a una app que va a ejecutar los siguientes endpoints. Se va a usar una arquitectura cliente servidor, se manejara una fachada para servir los archivos estáticos, el cliente HTML-js y hacer las peticiones al back</p>
+
+las peticiones son las siguientes junto con los puertos de cada uno
+```
+/add?x=<real> → reenvía a BACKEND/add?x=<real>
+/list → reenvía a BACKEND/list
+/clear → reenvía a BACKEND/clear
+/stats → reenvía a BACKEND/stats
+/cliente → retorna el cliente HTML+js
+
+puerto Fachada: 9000
+
+puerto Servidor: 9001
+```
+
 
 
 # Ejecución proyecto
