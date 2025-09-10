@@ -2,34 +2,82 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Form Example</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <head>
+        <title>Form Example</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
-<body>
-    <h1>Form with GET</h1>
-    <form action="/hello">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" value="John"><br><br>
-        <input type="button" value="Submit" onclick="loadGetMsg()">
-    </form>
-    <div id="getrespmsg"></div>
+    <body>
+        <h1>calculator</h1>
+        <form>
+            <label for="add">add a number :</label><br>
+            <input type="text" id="add"><br><br>
+            <input type="button" value="add" onclick="loadGetMsg()"><br><br>
 
-    <script>
-        function loadGetMsg() {
-            let nameVar = document.getElementById("name").value;
+            <label for="list">get list :</label><br>
+            <input type="button" id="list" value="list" onclick="getlist()"><br><br>
+
+            <label for="clear">clear list :</label><br>
+            <input type="button" id="clear" value="clear" onclick="getclear()"><br><br>
+            
+            <label for="stats">get stats:</label><br>
+            <input type="button" id="stats" value="stats" onclick="getstats()"><br><br>
+
+            
+        </form>
+        <div id="getrespmsg"></div>
+
+        <script>
+            function loadGetMsg() {
+            let nameVar = document.getElementById("add").value;
             const xhttp = new XMLHttpRequest();
             xhttp.onload = function () {
-                document.getElementById("getrespmsg").innerHTML =
-                    this.responseText;
+            document.getElementById("getrespmsg").innerHTML =
+            this.responseText;
             }
-            xhttp.open("GET", "/hello?name=" + nameVar);
+            xhttp.open("GET", "/add?x=" + nameVar);
             xhttp.send();
-        }
-    </script>
+            }
+            
+            
+            function getlist() {
+            let nameVar = document.getElementById("add").value;
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+            document.getElementById("getrespmsg").innerHTML =
+            this.responseText;
+            }
+            xhttp.open("GET", "/list");
+            xhttp.send();
+            }
+            
+            function getclear() {
+            let nameVar = document.getElementById("add").value;
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+            document.getElementById("getrespmsg").innerHTML =
+            this.responseText;
+            }
+            xhttp.open("GET", "/clear");
+            xhttp.send();
+            }
+            
+            function getstats() {
+            let nameVar = document.getElementById("add").value;
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+            document.getElementById("getrespmsg").innerHTML =
+            this.responseText;
+            }
+            xhttp.open("GET", "/stats");
+            xhttp.send();
+            }
+            
+            
+            
+        </script>
 
-</body>
+    </body>
 
 </html>
