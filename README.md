@@ -34,14 +34,14 @@ Ejemplo añadiendo un usuario<br>
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 111041.png>)
 
 
-ejemplo obteniendo valores de linked list<br>
+Ejemplo obteniendo valores de linked list<br>
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 111119.png>)
 
-ejemplo añadiendo otro numero<br>
+Ejemplo añadiendo otro numero<br>
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 111227.png>)
 
 
-ejemplo obteniendo stats<br>
+Ejemplo obteniendo stats<br>
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 111318.png>)
 
 toda la evidencia se encuentra en la carpeta resources dentro del proyecto
@@ -54,7 +54,7 @@ https://pruebacorreoescuelaingeduco-my.sharepoint.com/:v:/g/personal/jorge_gambo
 
 # Ejemplos de solicitudes al back
 
-primero se añaden tres usuarios<br>
+primero se añaden tres números<br>
 
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 115033.png>)
 
