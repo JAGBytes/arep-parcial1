@@ -62,18 +62,31 @@ primero se añaden tres usuarios<br>
 
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 115058.png>)
 
-luego se rectifica que fueron registrados exitosamente<br>
+Luego se rectifica que fueron registrados exitosamente<br>
 
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 115108.png>)
 
 
-Se reviza que stats funciona correctamente<br>
+Se revisa que stats funciona correctamente<br>
 ![alt text](<src/main/java/resources/Screenshot 2025-09-10 115119.png>)
 
 
 # Ejemplos de solicitudes al back sin cliente
 
+Añadimos varios números<br>
+![alt text](<src/main/java/resources/Screenshot 2025-09-10 115716.png>)
 
+Obtenemos los números añadidos anteriormente<br>
+![alt text](<src/main/java/resources/Screenshot 2025-09-10 115755.png>)
+
+Solicitamos las stats de los números<br>
+![alt text](<src/main/java/resources/Screenshot 2025-09-10 115805.png>)
+
+Limpiamos la lista<br>
+![alt text](<src/main/java/resources/Screenshot 2025-09-10 115814.png>)
+
+Observamos que al estar vacía nos devuelve un error del servidor que corresponde con el estado actual de la lista<br>
+![alt text](<src/main/java/resources/Screenshot 2025-09-10 115848.png>)
 
 # Autor 
 Jorge Andres Gamboa Sierra 
